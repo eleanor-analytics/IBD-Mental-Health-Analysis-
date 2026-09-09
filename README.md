@@ -149,6 +149,10 @@ This project demonstrates that **data science has a powerful role to play in hea
 
 **This project is a step towards my goal of using data science to improve mental health and healthcare outcomes.**
 
+### References
+
+Rivera-Sequeiros, A., et al. (2022). Clinical and Psychological Factors Associated with Addiction and Compensatory Use of Facebook Among Patients with Inflammatory Bowel Disease: A Cross-Sectional Study. International Journal of General Medicine, 15, 1447–1457. 
+
 
 
 
