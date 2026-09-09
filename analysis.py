@@ -15,13 +15,11 @@ import seaborn as sns
 # 1. LOAD DATA
 # ----------------------------
 
-# Load the Excel file
-file_path = 'Rivera-Sequeiros_et_al_2025_IBD_PsychosocialDataset.xlsx'
-
-# Load each sheet
-general_info = pd.read_excel(file_path, sheet_name='General Information')
-assessment = pd.read_excel(file_path, sheet_name='Assessment V1-V5')
-mapping = pd.read_excel(file_path, sheet_name='Question-Variable Mapping')
+# Load each CSV file
+general_info = pd.read_csv('general_info.csv')
+assessment = pd.read_csv('assessment.csv')
+mapping = pd.read_csv('mapping.csv')
+workshop = pd.read_csv('workshop.csv')
 
 # Display basic information
 print("=== GENERAL INFORMATION ===")
