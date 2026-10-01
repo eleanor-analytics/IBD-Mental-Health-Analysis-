@@ -16,8 +16,8 @@ import seaborn as sns
 # ----------------------------
 
 # Load each CSV file
-general_info = pd.read_csv('general_info.csv')
-assessment = pd.read_csv('assessment.csv')
+general_info = pd.read_csv('general_info_clean.csv')
+assessment = pd.read_csv('assessment_clean.csv')
 
 print("=== DATA LOADED SUCCESSFULLY ===")
 print(f"General Info: {general_info.shape}")
